@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="请输入手机号码或者邮箱"
+        app:layout_constraintEnd_toStartOf="@id/cdtv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.xh.lib.CountdownTextView
+        android:id="@+id/cdtv"
+        android:layout_width="108dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        app:countTime="10"
+        app:countdownColor="#B6B6B6"
+        app:countdownTextFormat="倒计时%ss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/et"
+        app:layout_constraintTop_toTopOf="parent"
+        app:normalColor="#009688"
+        app:normalText="获取验证码"
+        app:normalTextForAgain="重新获取验证码" />
+</androidx.constraintlayout.widget.ConstraintLayout>

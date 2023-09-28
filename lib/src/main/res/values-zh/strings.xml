@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="countdownTextView_normal_text">开始倒计时</string>
+    <string name="countdownTextView_normal_text_for_again">重新开始倒计时</string>
+    <string name="countdownTextView_countdown_text_format">倒计时 %ss</string>
+</resources>

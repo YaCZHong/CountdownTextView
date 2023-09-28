@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountdownTextView">
+        <attr name="normalColor" format="color" />
+        <attr name="countdownColor" format="color" />
+        <attr name="countTime" format="integer" />
+        <attr name="interval" format="integer" />
+        <attr name="normalText" format="string" />
+        <attr name="normalTextForAgain" format="string" />
+        <attr name="countdownTextFormat" format="string" />
+    </declare-styleable>
+</resources>
