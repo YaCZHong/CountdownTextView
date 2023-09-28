@@ -4,7 +4,8 @@
 
 ### 演示视频
 
-<video src="screen-20230928-172415.mp4" width="800px" height="600px" controls="controls">
+<video width="360" height="640" controls="controls">
+    <source src="art/screen-20230928-172415.mp4" type="video/mp4">
     你的浏览器不支持 <code>video</code> 标签
 </video>
 
@@ -74,7 +75,7 @@ class BindEtActivity : AppCompatActivity() {
 
         binding.apply {
 
-			// 关联EditText
+            // 关联EditText
             cdtv.bindEt(et)
 
             cdtv.setOnClickListener {
