@@ -23,7 +23,7 @@ dependencies {
 }
 ```
 
-### 2、简单的布局，一个输入手机号的 EditText 和我们用于显示倒计时的 CountdownTextView
+### 2、简单的布局，一个输入手机号/邮箱的 EditText 和我们用于显示倒计时的 CountdownTextView
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
