@@ -4,10 +4,7 @@
 
 ### 演示视频
 
-<video width="360" height="640" controls="controls">
-    <source src="art/screen-20230928-172415.mp4" type="video/mp4">
-    你的浏览器不支持 <code>video</code> 标签
-</video>
+https://github.com/lrCzh/CountdownTextView/assets/41668961/e74a40fb-65fc-4d04-95f9-69317eccb529
 
 ## 使用
 
